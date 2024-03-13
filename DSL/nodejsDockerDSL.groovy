@@ -1,4 +1,4 @@
-job('Aplicacion Node.js Docker DSL') {
+job('NodeJSDockerAppDSL') {
     description('NodeJS App DSL for Jenkins courses')
     scm {
         git('https://github.com/jsotogar/nodejsapp.git', 'main') { node ->
